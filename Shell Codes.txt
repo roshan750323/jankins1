@@ -1,0 +1,30 @@
+1) sudo snap install --classic code (Intsall visual studio)
+2) cat /etc/shells (returns shell types)
+3) echo $0  or which bash  (For bash type)
+4) code . (To open vs code)
+5) echo $BASH (Bash Type)
+6) echo $BASH_VERSION(Bash Version)
+7) echo $HOME(Home location)
+8) echo $PWD (Working Directory)
+9) read -p (for input on same line)
+10) read -sp (for silent input on same line)
+11) read (for this case input will go in default REPLY variable)
+12) read $@ (Print all the argument)
+13) read $# (Print the number of argument)
+14) arg = ("$@")  (stores augument)
+15) \c (Use to keep curser on the same line)
+    (\c use with the -e
+     ex echo -e "Enter the name: \c")
+16) cat > file_name (use to override data in file and ctrl D to exit)
+17) cat >> file_name (use to append data in file and ctrl D to exit)
+18) ctrl+c (To come out of Infinite loop)
+19) gnome-terminal & or xterm & (To open extra terminals)
+20) sudo chown root 1txt (It will change user name to root)
+21) sudo apt-cache search apache2 (To check if package is already there in system)
+22) sudo apt-get install apache2 (To install apache2)
+23) sudo systemctl status apache2
+24) sudo systemctl start apache2
+25) sudo systemctl enable apache2
+       
+       
+       
